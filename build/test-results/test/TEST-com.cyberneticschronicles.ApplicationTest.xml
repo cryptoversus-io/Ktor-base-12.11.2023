@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.cyberneticschronicles.ApplicationTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-12-11T13:38:45" hostname="CyberNet-00" time="1.603">
+  <properties/>
+  <testcase name="testRoot" classname="com.cyberneticschronicles.ApplicationTest" time="1.603"/>
+  <system-out><![CDATA[2023-12-11 06:38:45.847 [DefaultDispatcher-worker-1 @call-context#2] INFO  ktor.test - No ktor.deployment.watch patterns specified, automatic reload is not active.
+2023-12-11 06:38:45.866 [DefaultDispatcher-worker-1 @call-context#2] INFO  ktor.test - Application started in 0.03 seconds.
+2023-12-11 06:38:45.895 [DefaultDispatcher-worker-1 @request#2] TRACE io.ktor.routing.Routing - Trace for []
+/, segment:0 -> SUCCESS @ /
+  /, segment:0 -> SUCCESS @ /
+    /(method:GET), segment:0 -> SUCCESS @ /(method:GET)
+Matched routes:
+  "" -> "<slash>" -> "(method:GET)"
+Route resolve result:
+  SUCCESS @ /(method:GET)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

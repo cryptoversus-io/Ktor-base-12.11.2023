@@ -1,0 +1,10 @@
+¤2023-12-11 06:38:45.847 [DefaultDispatcher-worker-1 @call-context#2] INFO  ktor.test - No ktor.deployment.watch patterns specified, automatic reload is not active.
+|2023-12-11 06:38:45.866 [DefaultDispatcher-worker-1 @call-context#2] INFO  ktor.test - Application started in 0.03 seconds.
+m2023-12-11 06:38:45.895 [DefaultDispatcher-worker-1 @request#2] TRACE io.ktor.routing.Routing - Trace for []
+/, segment:0 -> SUCCESS @ /
+  /, segment:0 -> SUCCESS @ /
+8    /(method:GET), segment:0 -> SUCCESS @ /(method:GET)
+Matched routes:
+$  "" -> "<slash>" -> "(method:GET)"
+Route resolve result:
+  SUCCESS @ /(method:GET)
